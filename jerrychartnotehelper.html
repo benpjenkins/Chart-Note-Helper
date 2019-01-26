@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Jerry Chart Note Helper
+  </title>
+  <script type="text/javascript" src="chartnotehelper.js"></script>
+  <link rel="stylesheet" href="chartnotehelper.css">
+</head>
+
+<body>
+
+  <h1>Jerry Chart Note Helper</h1>
+  
+    <div id="position">
+      Was the patient sitting or laying down?
+      <br>
+      <input id="sitting" type="radio" name="position" value="sitting"> Sitting
+      <br>
+      <input id="laying" type="radio" name="position" value="laying"> Laying Down
+      <br>
+      <br>
+    </div>
+
+    <div id="disposition">
+      Was the patient smiling or in discomfort?
+      <br>
+      <input type="radio" name="disposition" value="smiling"> Smiling
+      <br>
+      <input type="radio" name="disposition" value="discomfort"> Discomfort
+      <br>
+      <br>
+    </div>
+
+    <div id="unique">
+      What makes the patient unique?
+      <br>
+      <input type="text" name="unique">
+      <br>
+      <br>
+    </div>
+
+    <div id="support">
+      Who does the patient rely on for support?
+      <br>
+      <input type="text" name="support">
+      <br>
+      <br>
+    </div>
+
+    <div id="need">
+      What does the patient need?
+      <br>
+      <input type="text" name="need">
+      <br>
+      <br>
+    </div>
+
+    <div id="action">
+      What did the volunteer do?
+      <br>
+      <input type="text" name="action">
+      <br>
+      <br>
+    </div>
+    
+    <div id="chaplainname">
+      Enter Your Name: <br>
+      <input type="text" name="chaplainname">
+      <br>
+      <br>
+    </div>  
+
+    <button onclick="submit()">Submit</button>
+    <input type="reset" value="Clear Form">
+  
+
+</body>
+
+</html>
