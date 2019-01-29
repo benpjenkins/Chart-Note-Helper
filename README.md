@@ -1,1 +1,2 @@
 # Chart-Note-Helper
+Chart note helper started as an inside joke between myself and former coworkers in the department of spiritual care at a hospital I worked at.  Part of our work included entering the notes from volunteers into the medical records of patients after they had been visited (just like a doctor or a nurse would).  One particular volunteer had very little variety in the way he wrote his notes and chart note helper is my attempt to help automate the entry of his notes into the electronic medical record as efficiently as possible.
