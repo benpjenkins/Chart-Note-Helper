@@ -5,7 +5,7 @@
   <title>
     Jerry Chart Note Helper
   </title>
-  
+  <script type="text/javascript" src="chartnotehelper.js"></script>
   <link rel="stylesheet" href="chartnotehelper.css">
 </head>
 
@@ -16,9 +16,7 @@
     <div id="position">
       Was the patient sitting or laying down?
       <br>
-      <input id="sitting" type="radio" name="position" value="sitting"> Sitting
-      <br>
-      <input id="laying" type="radio" name="position" value="laying"> Laying Down
+      <input type="text" name="position" id ="position_text">
       <br>
       <br>
     </div>
@@ -26,9 +24,7 @@
     <div id="disposition">
       Was the patient smiling or in discomfort?
       <br>
-      <input type="radio" name="disposition" value="smiling"> Smiling
-      <br>
-      <input type="radio" name="disposition" value="discomfort"> Discomfort
+     <input type="text" name="disposition" id ="disposition_text">
       <br>
       <br>
     </div>
@@ -36,7 +32,7 @@
     <div id="unique">
       What makes the patient unique?
       <br>
-      <input type="text" name="unique">
+      <input type="text" name="unique" id ="unique_text">
       <br>
       <br>
     </div>
@@ -44,7 +40,7 @@
     <div id="support">
       Who does the patient rely on for support?
       <br>
-      <input type="text" name="support">
+      <input type="text" name="support" id ="support_text">
       <br>
       <br>
     </div>
@@ -52,7 +48,7 @@
     <div id="need">
       What does the patient need?
       <br>
-      <input type="text" name="need">
+      <input type="text" name="need" id ="need_text">
       <br>
       <br>
     </div>
@@ -60,14 +56,14 @@
     <div id="action">
       What did the volunteer do?
       <br>
-      <input type="text" name="action">
+      <input type="text" name="action" id ="action_text">
       <br>
       <br>
     </div>
     
     <div id="chaplainname">
       Enter Your Name: <br>
-      <input type="text" name="chaplainname">
+      <input type="text" name="chaplainname" id="chaplain_text">
       <br>
       <br>
     </div>  
