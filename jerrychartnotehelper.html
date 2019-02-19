@@ -5,7 +5,6 @@
   <title>
     Jerry Chart Note Helper
   </title>
-  <script type="text/javascript" src="chartnotehelper.js"></script>
   <link rel="stylesheet" href="chartnotehelper.css">
 </head>
 
@@ -13,10 +12,11 @@
 
   <h1>Jerry Chart Note Helper</h1>
   
+
     <div id="position">
       Was the patient sitting or laying down?
       <br>
-      <input type="text" name="position" id ="position_text">
+      <input type="text" name="position" id ="position_text" placeholder="i.e. sitting" size =35>
       <br>
       <br>
     </div>
@@ -24,7 +24,7 @@
     <div id="disposition">
       Was the patient smiling or in discomfort?
       <br>
-     <input type="text" name="disposition" id ="disposition_text">
+     <input type="text" name="disposition" id ="disposition_text" placeholder="i.e. smiling" size =35>
       <br>
       <br>
     </div>
@@ -32,7 +32,7 @@
     <div id="unique">
       What makes the patient unique?
       <br>
-      <input type="text" name="unique" id ="unique_text">
+      <input type="text" name="unique" id ="unique_text" placeholder="i.e. they have red hair" size =35>
       <br>
       <br>
     </div>
@@ -40,7 +40,7 @@
     <div id="support">
       Who does the patient rely on for support?
       <br>
-      <input type="text" name="support" id ="support_text">
+      <input type="text" name="support" id ="support_text" placeholder="i.e. spouse and son" size =35>
       <br>
       <br>
     </div>
@@ -48,7 +48,7 @@
     <div id="need">
       What does the patient need?
       <br>
-      <input type="text" name="need" id ="need_text">
+      <input type="text" name="need" id ="need_text" placeholder="i.e. to go home and get better" size =35>
       <br>
       <br>
     </div>
@@ -56,20 +56,23 @@
     <div id="action">
       What did the volunteer do?
       <br>
-      <input type="text" name="action" id ="action_text">
+      <input type="text" name="action" id ="action_text" placeholder="i.e. gave a chaplain card" size =35>
       <br>
       <br>
     </div>
     
     <div id="chaplainname">
       Enter Your Name: <br>
-      <input type="text" name="chaplainname" id="chaplain_text">
+      <input type="text" name="chaplainname" id="chaplain_text" placeholder="i.e. Ben Jenkins" size =35>
       <br>
       <br>
     </div>  
 
     <button onclick="submit()">Submit</button>
     <input type="reset" value="Clear Form">
+<h5>Clear form is currently broken. Reloading the page will reset the form until this is fixed </h5>
+
+        <a href="chartnotehelperREADME.md">Read Me</a>
   
 <script type="text/javascript" src="chartnotehelper.js"></script>
 </body>
